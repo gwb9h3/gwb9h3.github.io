@@ -1,0 +1,126 @@
+[data-tab-content] {
+    display: none;
+}
+body{
+    color:white;
+    background-image: url(Images/Black\ Website\ Background\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home_content{
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+    gap:15px;
+}
+
+.home_content_child{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-top:3%;
+    border:1px solid black;
+    background-color: #4d4d4d;
+    padding: 5px;
+}
+
+.resume_child{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top:3%;
+    margin-bottom: 3%;
+    border:1px solid black;
+    background-color: #4d4d4d;
+    padding: 5px;
+}
+
+.education_child{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top:3%;
+    margin-bottom: 3%;
+    border:1px solid black;
+    background-color: #4d4d4d;
+    padding: 5px;
+}
+
+.examples_child{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top:3%;
+    border:1px solid black;
+    background-color: #4d4d4d;
+    padding: 5px;
+}
+.examples_child_bottom{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top:3%;
+    margin-bottom: 5%;
+    border:1px solid black;
+    background-color: #4d4d4d;
+    padding: 5px;
+}
+.goals_child{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top:3%;
+    border:1px solid black;
+    background-color: #4d4d4d;
+    padding: 5px;
+}
+
+.active[data-tab-content]{
+    display: block;
+}
+
+.tabs{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    border: 1px solid black;
+    background-color: #808080;
+    color:white;
+    font-size: x-large;
+}
+
+.tab{
+    cursor: pointer;
+}
+.tab.active{
+    background-color: #595959;
+}
+.tab:hover{
+    background-color: #4d4d4d;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
+
+
